@@ -1,0 +1,21 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "sends transactional emails and adds user email to mailing list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "4.17.1",
+    "sib-api-v3-sdk": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
